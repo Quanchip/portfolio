@@ -25,6 +25,103 @@ languages:
         #   title: Image gallery
         #   url: /gallery
         #   weight: 2
+  vi:
+    languageName: "Tiếng Việt"
+    weight: 2
+    contentDir: "content/vi"
+    menu:
+      main:
+        - identifier: blog
+          name: Blog
+          title: Bài viết
+          url: /vi/blogs
+          weight: 1
+    params:
+      hero:
+        intro: "Xin chào, tôi là"
+        title: "Quân."
+        subtitle: "Tôi tự động hóa mọi thứ để có thể lười biếng :)"
+        content: "Một kỹ sư DevOps & Cloud đam mê tự động hóa, CI/CD, Kubernetes và các công nghệ cloud-native. Tôi thiết kế, triển khai và duy trì các hệ thống đáng tin cậy có khả năng mở rộng, bảo mật và hoạt động hiệu quả."
+        button:
+          name: "Hồ sơ"
+      about:
+        title: "Về Tôi"
+        content: |-
+          Tôi là một kỹ sư DevOps & Cloud với niềm đam mê về tự động hóa, CI/CD, Kubernetes và các công nghệ cloud-native. Tôi thiết kế, triển khai và duy trì các hệ thống đáng tin cậy có khả năng mở rộng, bảo mật và hoạt động hiệu quả.
+        skills:
+          title: "Dưới đây là một số công nghệ tôi đã làm việc gần đây:"
+      experience:
+        items:
+          - company: "Bosch Global Software Technologies Vietnam"
+            companyUrl: "https://www.bosch-softwaretechnologies.com/en/locations/vietnam/vechungtoi.html"
+            jobs:
+              - name: "Thực tập sinh DevOps"
+                date: "Tháng 7/2025 - Tháng 1/2026"
+                content: |-
+                  - Thực tập sinh DevOps tại Bosch Global Software Technologies, Thành phố Hồ Chí Minh (Tháng 7/2025 – Tháng 1/2026)
+                  - Triển khai giám sát tự động bằng Python, Prometheus và Grafana cho cơ sở hạ tầng đa nền tảng, cải thiện khả năng hiển thị hệ thống và CI/CD theo thời gian thực và giảm 80% giám sát thủ công
+                  - Hỗ trợ và duy trì cơ sở hạ tầng pipeline CI/CD trên Azure DevOps và Jenkins cho việc xây dựng và phân phối phần mềm
+                  - Duy trì và cải thiện dashboard Grafana theo dõi KPI JIRA trên nhiều dự án ô tô
+          - company: "South Telecom JSC"
+            companyUrl: "https://southtelecom.vn/"
+            jobs:
+              - name: "Thực tập sinh DevOps"
+                date: "Tháng 7/2024 - Tháng 10/2024"
+                content: |-
+                  - Thực hiện quản trị hệ thống Linux, khắc phục sự cố và hỗ trợ vận hành
+                  - Triển khai pipeline CI/CD sử dụng GitLab CI cho tự động hóa build và deployment
+                  - Cấu hình và quản lý dịch vụ sử dụng Docker containerization
+                  - Giám sát hệ thống và dịch vụ, tích hợp cảnh báo để phản ứng chủ động với sự cố
+      education:
+        items:
+          - title: "Cử nhân Kỹ thuật Công nghệ Thông tin"
+            school:
+              name: "Đại học Quốc tế - Đại học Quốc gia Việt Nam"
+              url: "https://hcmiu.edu.vn"
+            date: "2021 - 2025"
+      achievements:
+        items:
+          - title: AWS Certified Solutions Architect – Associate
+            image: /images/saa.png
+          - title: Building RAG Apps Using MongoDB
+            image: /images/rag.png
+          - title: International English Language Testing System (IELTS) 6.5
+            image: /images/ielts.jpeg
+      projects:
+        items:
+          - title: Khung Giám sát Cơ sở Hạ tầng Đa nền tảng
+            content: |-
+
+              • Tự động thu thập số liệu từ Azure DevOps & Jenkins bằng Python
+              • Phát triển dashboard Grafana cho khả năng hiển thị cơ sở hạ tầng và CI/CD
+              • Triển khai deployment một cú nhấp chuột để thiết lập hệ thống dễ dàng
+
+            image: /images/projects/monitoring.png
+            featured:
+              name: Dự án riêng tư
+            badges:
+              - "Python"
+              - "Prometheus"
+              - "Grafana"
+              - "Docker"
+          - title: AWS CloudOps Agent
+            content: |-
+
+              • Xây dựng agent sử dụng Amazon Bedrock & Python
+              • Triển khai quy trình phê duyệt với Microsoft Teams
+              • Tự động kiểm tra sức khỏe bằng CloudWatch & EventBridge để phát hiện bất thường và kích hoạt phân tích  
+
+            image: /images/projects/aws.png
+            featured:
+              name: Dự án riêng tư
+            badges:
+              - "AWS"
+              - "Python"
+              - "AI Ops"
+              - "CloudWatch"
+      contact:
+        content: Hộp thư của tôi luôn mở. Dù bạn có câu hỏi hay chỉ muốn chào hỏi, tôi sẽ cố gắng hết sức để trả lời bạn!
+        btnName: Gửi email cho tôi
 
 
 outputs:
